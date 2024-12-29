@@ -1,0 +1,33 @@
+.card-container {
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  padding: 12px 8px; 
+}
+
+.product-img {
+    height: 120px;
+    width: 80px;
+}
+.card-subtitle {
+    color: grey;
+}
+
+.color-list {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.color-circle {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.product-list {
+    display: flex;
+}
